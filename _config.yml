@@ -41,3 +41,8 @@ links:
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
+
+#设置高亮
+redcarpet:
+  extensions: [fenced_code_blocks]
+  render_options:
