@@ -2,17 +2,17 @@
 title: A blog about lorem ipsum dolor sit amet
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://zhenghuom.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Lorem Ipsum
+username: Zheng HuoM
 user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+user_title: My First Blog
+email: zhenghuom@sina.com
+
+github_username:  zhenghuom
+gplus_username:  zhenghuom
+disqus_username: zhenghuom
 
 # Build settings
 markdown: kramdown
@@ -32,10 +32,6 @@ compress_html:
 links:
   - title: Home
     url: /
-  - title: Series
-    url: /series
-  - title: Tags
-    url: /tags
   - title: About Me
     url: /about
 
@@ -45,3 +41,6 @@ exclude: ['package.json', 'src', 'node_modules']
 #设置高亮
 redcarpet:
   extensions: [fenced_code_blocks]
+
+#开启分页
+#paginate: 5

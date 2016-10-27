@@ -43,14 +43,13 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://localhost:3000" # the base hostname & protocol for your site 
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+username: zhenghuom
+user_description: PHP Developer
+user_title: My First Blog
+email: zhenghuom@sina.com
+github_username:  zhenghuom
+gplus_username:  zhenghuom
+disqus_username: zhenghuom
 ```
 
 **Don't forget to change your baseurl before build your site!**
