@@ -16,17 +16,20 @@ categories:
 2.自已写页面或在网在找一些jekyll的模板然后做一些修改，然后把模板放到你在github
 创建好的仓库上，这时你就可以访问你的博客了，访问的域名为https://你所在github上
 注册的名字.github.io/，如https://zhenghuom.github.io/  
->注意，引入的样式和js协议要是https的，http可能会报错，最好把这些文件都放在自己的
->目录下
 
-3若不是在网上找模板的，你要在自己本地环境上安排jekyll
+> 注意，引入的样式和js协议要是https的，http可能会报错，最好把这些文件都
+> 放在自己的目录下
+
+3.若不是在网上找模板的，你要在自己本地环境上安排jekyll
 
 *jekyll 中文网站 `http://jekyll.com.cn/`
 
-*安装jekyll 地址 `http://jekyll.com.cn/docs/installation/`
-或者先安装ruby和rubygems `sudo apt-get install ruby1.9.1-dev` 
-`sudo apt-get install rubygems`  `sudo apt install jekyll`
-
+*安装jekyll 地址 `http://jekyll.com.cn/docs/installation/`  
+1.使用apt安装   
+    `sudo apt install jekyll`   
+2.使用gem安装   
+    `gem install jekyll`
+ 
 #Jekyll基本结构
 
 *`_config.yml`   配置文件，用来定义你想要的效果，设置之后就不用关心了。
@@ -44,16 +47,45 @@ categories:
 #代码高亮样式
 
 js和css和配置可以网上找
-如我找的：//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/default.min.css
-//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js
-把这两文件拉来你本地再引入然后再加上<script>hljs.initHighlightingOnLoad();</script>
+如highlight：https://highlightjs.org/
 
-#代码
-\`\`\`语言    
-代码  
-\`\`\`
+系统默认高亮代码配置
+`markdown: kramdown`
+系统默认的高亮代码格式
 
-如：
+> { % highlight javascript % }  
+> var a = 1;    
+> var b = 2;    
+> var c = a + b;    
+> { % endhighlight % }
+
+效果
+
+{% highlight javascript %}  
+var a = 1;    
+var b = 2;    
+var c = a + b;    
+{% endhighlight %}
+
+
+#若想把高亮变成这做格式
+
+>\`\`\`PHP    
+>/*  
+>* 师傅未处理的订单  
+>*/  
+>function untreatedOrder($masterId){    
+>   if(!$masterId){   
+>        return [];    
+>     } 
+>     $list = D('UserOrder')->field('orderAddr,FROM_UNIXTIME(addTime,"%Y-%m-%d %H:%i:%s") as addTime')
+>         ->where(['masterID'=>$masterId,'status'=>array('not in','2,3'),'isOn'=>1,'isFalseOrder'=>0])
+>         ->select();      
+> }  
+>\`\`\`
+
+效果
+
 ```php
 /*  
  * 师傅未处理的订单 
@@ -69,3 +101,16 @@ function untreatedOrder($masterId){
     return $list;
 }
 ```
+
+这里_config.yml配置更改成
+`markdown: redcarpet`
+
+\#设置高亮   
+`redcarpet:`    
+  `extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "tables"]`   
+  `render_options:`
+  
+注意：都次更改_config.yml都要重启jekyll才有效
+
+
+

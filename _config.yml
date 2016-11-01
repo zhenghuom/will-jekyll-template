@@ -15,8 +15,8 @@ gplus_username:  zhenghuom
 disqus_username: zhenghuom
 
 # Build settings
-markdown: kramdown
-highlighter: rouge
+markdown: redcarpet
+highlighter: Pygments
 permalink: /:title/
 
 
@@ -40,7 +40,8 @@ exclude: ['package.json', 'src', 'node_modules']
 
 #设置高亮
 redcarpet:
-  extensions: [fenced_code_blocks]
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "tables"]
+  render_options:
 
 #开启分页
 #paginate: 5
