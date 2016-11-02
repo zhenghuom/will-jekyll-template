@@ -75,13 +75,14 @@ var c = a + b;
 >* 师傅未处理的订单  
 >*/  
 >function untreatedOrder($masterId){    
->   if(!$masterId){   
->        return [];    
->     } 
->     $list = D('UserOrder')->field('orderAddr,FROM_UNIXTIME(addTime,"%Y-%m-%d %H:%i:%s") as addTime')
->         ->where(['masterID'=>$masterId,'status'=>array('not in','2,3'),'isOn'=>1,'isFalseOrder'=>0])
->         ->select();      
-> }  
+>&emsp;&emsp;if(!$masterId){   
+>&emsp;&emsp;&emsp;&emsp;return [];    
+>&emsp;&emsp;}   
+>&emsp;&emsp;$list = D('UserOrder')
+->field('orderAddr,FROM_UNIXTIME(addTime,"%Y-%m-%d %H:%i:%s") as addTime')
+->where(['masterID'=>$masterId,'status'=>array('not in','2,3'),'isOn'=>1,'isFalseOrder'=>0])
+->select();      
+>}  
 >\`\`\`
 
 效果
