@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "nginx php7 配置"
-date: 2016-11-1 18:56:00
+date: 2016-11-2 18:56:00
 image: '/assets/img/'
-description: 'ajax上传文件'
+description: 'nginx php7 配置Thinkphp'
 tags:
 - jekyll 
 - template 

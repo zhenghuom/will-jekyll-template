@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "ubuntu nigix mysql php"
-date: 2016-10-22 18:00:00
+title: "滚动条到达底部触发的事件"
+date: 2016-12-1 14:25:00
 image: '/assets/img/'
-description: 'lnmp'
+description: '滚动条到达底部触发的事件'
 tags:
-- jekyll 
-- template 
+- javascript 
+- php 
 categories:
 - I love Jekyll
 twitter_text: 'How to install and use this template'

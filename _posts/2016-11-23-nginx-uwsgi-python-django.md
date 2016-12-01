@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "初学python"
-date: 2016-10-22 18:00:00
+date: 2016-11-23 18:00:00
 image: '/assets/img/'
 description: '初学python遇到的问题'
 tags:
