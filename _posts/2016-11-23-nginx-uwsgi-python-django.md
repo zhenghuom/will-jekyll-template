@@ -29,6 +29,45 @@ twitter_text: 'How to install and use this template'
     python manage.py startapp app-name
 或 django-admin.py startapp app-name
 
+推荐一个学习django的学习地址 http://djangobook.py3k.cn/ 
+
+##开发服务器
+
+Django 带有一个内建的轻量级 Web 服务器，可供站点开发过程中使用。
+我们提供这个服务器是为了让你快速开发站点，也就是说在准备发布产品之前，
+无需进行产品级 Web 服务器（比如 Apache）的配置工作。该开发服务器会
+监测代码变动并将其自动重载，这样一来，你可快速进行项目修改而无需作任何重启。
+
+如果还没有进入 project-name 目录的话，现在进入其中，并运行 python manage.py runserver 命令。你将看到如下输出：
+
+```javascript
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 09, 2016 - 08:41:55
+Django version 1.10.3, using settings 'hello.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+```
+
+尽管对于开发来说，这个开发服务器非常得棒，但一定要打消在产品级环境中使用该
+服务器的念头。在同一时间，该服务器只能可靠地处理一次单个请求，并且没有进行
+任何类型的安全审计。发布站点前，请参阅第 20 章了解如何部署 Django 。
+
+更改主机或端口
+
+默认情况下， runserver 命令在 8000 端口启动开发服务器，且只监听本机连接。
+要想要更改服务器端口的话，可将端口作为命令行参数传入：
+```javascrpt
+python manage.py runserver 8080
+```
+
+还可以改变服务器监听的 IP 地址。要和其他开发人员共享同一开发站点的话，
+该功能特别有用。下面的命令：
+```javascript
+python manage.py runserver 0.0.0.0:8080
+```
+
 #使用uwsgi
 在项目目录下创建uwsgi配置文件ini 如：uwsgi.ini
 uwsgi.ini参数
@@ -75,7 +114,7 @@ server {
 
 ```
 
-推荐一个学习django的学习地址 http://www.ziqiangxuetang.com/django/django-tutorial.html
+
 
 #开始一个小项目
 创建项目
