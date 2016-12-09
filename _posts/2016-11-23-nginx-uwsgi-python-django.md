@@ -29,7 +29,7 @@ twitter_text: 'How to install and use this template'
     python manage.py startapp app-name
 或 django-admin.py startapp app-name
 
-推荐一个学习django的学习地址 http://djangobook.py3k.cn/ 
+推荐一个学习django的学习地址 http://djangobook.py3k.cn/2.0
 
 ##开发服务器
 
