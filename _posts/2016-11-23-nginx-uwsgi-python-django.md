@@ -110,6 +110,7 @@ uwsgi --reload uwsgi.pid
 运行uwsgi.ini后会生成uwsgi.pid,uwsgi.sock,uwsgi.log文件
 
 #nginx配置
+
 ```javascript
 server {
     listen 8080;
@@ -217,6 +218,7 @@ class Book(models.Model):
 编辑 settings.py 文件
 
 MIDDLEWARE_CLASSES =>MIDDLEWARE
+
 ```python
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -258,6 +260,7 @@ Unknown command: ‘sqlall‘Type ‘manage.py help‘ for usage.同样如果
 你想提交sql语句到数据库而运行syncdb，错误提示是Unknown command: ‘syncdb‘
 Type ‘manage.py help‘ for usage. 为什么没有这些命令，因为它们被淘汰了。
 所以你只需运行如下的命令：
+
 ```python
 python manage.py makemigrations books    #用来检测数据库变更和生成数据库迁移文件
 
