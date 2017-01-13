@@ -17,7 +17,7 @@ categories:
 
 #静态页面
 
->Huploadify文件可到github
+>Huploadify文件可到github中搜索
 
 ```html
 
