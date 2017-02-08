@@ -76,3 +76,7 @@ function exportImg(){
 
 ```
 
+
+>如果你的程序提示没有这个类，如：Class 'ZipArchive' not found，
+请自己行安装php_zip.dll扩展，这里有个参考链接： http://jingyan.baidu.com/article/636f38bb3e538ad6b84610e6.html
+
