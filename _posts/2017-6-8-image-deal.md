@@ -17,7 +17,7 @@ categories:
 - 插件 lrz.all.bundle.js
 
 - 代码 
-```js
+```javascript
 
 // 图片上传
 $(document).on("change",".file",function(e){
