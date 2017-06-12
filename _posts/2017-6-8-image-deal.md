@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "学习TP5"
+title: "前端图片处理成base64"
 date: 2017-6-8 18:00:00
 image: '/assets/img/'
-description: '前端图片处理'
+description: '前端图片处理成base64'
 tags:
 - js
 - html
