@@ -81,3 +81,29 @@ $(document).on("change",".file",function(e){
 
 ```
 
+#透明圆角图片
+
+```php
+
+//圆角图片
+function get_lt_rounder_corner($radius)
+{
+    $img = imagecreatetruecolor($radius * 2, $radius * 2);  // 创建一个正方形的图像
+    $bgcolor = imagecolorallocate($img, 255, 255, 255);   // 图像的背景
+    $fgcolor = imagecolorallocate($img, 0, 0, 0);
+    imagefill($img, 0, 0, $bgcolor);
+
+    imagefilledarc($img, $radius, $radius, $radius * 2, $radius * 2, 180, 180, $fgcolor, IMG_ARC_PIE);
+    // 将弧角图片的颜色设置为透明
+    imagecolortransparent($img, $fgcolor);
+    // 变换角度
+    // $img = imagerotate($img, 90, 0);
+    // $img = imagerotate($img, 180, 0);
+    // $img = imagerotate($img, 270, 0);
+    // header('Content-Type: image/png');
+    // imagepng($img);
+    return $img;
+}
+
+```
+
