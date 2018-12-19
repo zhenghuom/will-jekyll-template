@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18785e19-9e00-4a56-a1b2-ac49e9f230f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-10-25-blog-start.md" afterPath="$PROJECT_DIR$/_posts/2016-10-25-blog-start.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-15-tp5-qrcode.md" afterPath="$PROJECT_DIR$/_posts/2018-12-15-tp5-qrcode.md" />
-    </list>
+    <list default="true" id="18785e19-9e00-4a56-a1b2-ac49e9f230f2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-12-15-tp5-qrcode.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
+              <first_editor relative-caret-position="252">
+                <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -68,12 +64,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-10-25-blog-start.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-12-19-git.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-12-19-git.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="472">
+                <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-10-25-blog-start.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-10-25-blog-start.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="314">
-                <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <first_editor relative-caret-position="206">
+                <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -111,8 +120,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2018-12-15-tp5-qrcode.md" />
         <option value="$PROJECT_DIR$/_posts/2016-10-25-blog-start.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-12-15-tp5-qrcode.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-12-19-git.md" />
       </list>
     </option>
   </component>
@@ -207,12 +217,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544810359654</updated>
       <workItem from="1544810361037" duration="1270000" />
-      <workItem from="1545200976334" duration="1669000" />
+      <workItem from="1545200976334" duration="3560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2939000" />
+    <option name="totallyTimeSpent" value="4830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -488,22 +498,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-12-15-tp5-qrcode.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-10-25-blog-start.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
+          <first_editor relative-caret-position="206">
+            <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-10-25-blog-start.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-12-15-tp5-qrcode.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="314">
-            <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <first_editor relative-caret-position="252">
+            <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-12-19-git.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="472">
+            <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />
