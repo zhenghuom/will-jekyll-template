@@ -28,7 +28,9 @@ categories:
 1.使用apt安装   
     `sudo apt install jekyll`   
 2.使用gem安装   
-    `gem install jekyll`
+    `sudo gem install jekyll`
+3.本地跑 jekyll环境，进入根目录，运行`jekyll serve`可以本地查看效果或报错，
+运行命令后可以在浏览器上输入`localhost:4000`访问
  
 #Jekyll基本结构
 
@@ -111,7 +113,7 @@ function untreatedOrder($masterId){
   `extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "tables"]`   
   `render_options:`
   
-注意：都次更改_config.yml都要重启jekyll才有效
+注意：每次更改_config.yml都要重启jekyll才有效
 
 
 
